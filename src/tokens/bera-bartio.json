@@ -1,0 +1,50 @@
+[
+    {
+        "name": "Wrapped Bera",
+        "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
+        "symbol": "WBERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/wbera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "USD Coin",
+        "address": "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Honey",
+        "address": "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
+        "symbol": "HONEY",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/honey.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Wrapped Ether",
+        "address": "0x6E1E9896e93F7A71ECB33d4386b49DeeD67a231A",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/eth.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Tether USD",
+        "address": "0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Kodiak Finance",
+        "address": "0xfd27998fa0eaB1A6372Db14Afd4bF7c4a58C5364",
+        "symbol": "KDK",
+        "decimals": 18,
+        "logoURI": "",
+        "chainId": 80084
+    }
+]
