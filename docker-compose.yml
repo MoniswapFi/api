@@ -1,0 +1,9 @@
+services:
+  main:
+    hostname: main
+    container_name: moniswap-fi-tokenlist-server
+    ports:
+      - 1998:1998
+    build:
+      context: .
+      dockerfile: Dockerfile
