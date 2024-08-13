@@ -4,6 +4,7 @@ const router = require("./router");
 
 const app = express();
 
+app.use(require("morgan")("combined"));
 app.use((_, res, next) => {
     res.setHeader("Access-Control-Allow-Origin", "*");
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, DELETE, PATCH");
