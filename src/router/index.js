@@ -15,7 +15,7 @@ router.get("/tokens/:chainIdOrName", (req, res) => {
         const result = tokensDictionary[key];
         assert.ok(result !== null && typeof result !== "undefined", "invalid chain id or name");
 
-        return res.status(200).json(result);
+        return res.status(200).json(result.sort((a, b) => (a.symbol < b.symbol ? -1 : a.symbol > b.symbol ? +1 : 0)));
     } catch (error) {
         return res.status(500).json({ error: error.message });
     }
