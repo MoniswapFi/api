@@ -1,5 +1,13 @@
 [
     {
+        "name": "Moniswap",
+        "address": "0x5A3740947AdEdADDE6B3034222B779549F0aC42F",
+        "symbol": "MONI",
+        "decimals": 18,
+        "logoURI": "https://avatars.githubusercontent.com/u/164018330?s=400&u=e64d7b4d2fec89ee15300ac0c6ca2b003e6a4482&v=4",
+        "chainId": 80084
+    },
+    {
         "name": "Wrapped Bera",
         "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
         "symbol": "WBERA",
