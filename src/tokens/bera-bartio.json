@@ -1,5 +1,21 @@
 [
     {
+        "name": "Bera Coin",
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "symbol": "BERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/bera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "DAI",
+        "address": "0x806Ef538b228844c73E8E692ADCFa8Eb2fCF729c",
+        "symbol": "DAI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+        "chainId": 80084
+    },
+    {
         "name": "Moniswap",
         "address": "0x5A3740947AdEdADDE6B3034222B779549F0aC42F",
         "symbol": "MONI",
