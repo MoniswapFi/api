@@ -1,9 +1,9 @@
 const mongoose = require("mongoose");
 
 const questSchema = new mongoose.Schema({
-    address: { type: String, unique: true },
+    address: String,
     reason: String,
-    points: Number
+    points: Number,
 });
 
 const QuestModel = mongoose.model("Quest", questSchema);
