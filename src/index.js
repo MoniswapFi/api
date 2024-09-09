@@ -3,8 +3,10 @@ require("dotenv").config();
 const express = require("express");
 const mongoose = require("mongoose");
 var bodyParser = require("body-parser");
+
 const tokensRouter = require("./router/TokenRoutes");
 const walletRouter = require("./router/WalletRoutes");
+const questRouter = require("./router/QuestRoutes");
 
 const port = parseInt(process.env.PORT || "1998");
 const dbURI = process.env.MONGODB_URL;
@@ -21,6 +23,7 @@ app.use((_, res, next) => {
 
 app.use("/tokens", tokensRouter);
 app.use("/wallet", walletRouter);
+app.use("/quest", questRouter);
 
 try {
     mongoose.connect(dbURI);

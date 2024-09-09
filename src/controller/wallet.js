@@ -24,13 +24,10 @@ exports.create = function (req, res) {
 exports.addPoints = async function (req, res) {
     try {
         const requestBody = req.body;
-        if (!requestBody.address) {
+        if (!requestBody.address || !requestBody.points) {
             return res.status(400).json({ error: "Invalid request params" });
         }
-        await WalletModel.findOneAndUpdate(
-            { address: requestBody.address },
-            { $inc: { points: requestBody.points } }
-        );
+        await WalletModel.findOneAndUpdate({ address: requestBody.address }, { $inc: { points: requestBody.points } });
 
         return res.status(200).json({
             message: "Wallet updated.",
