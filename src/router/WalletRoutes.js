@@ -1,8 +1,7 @@
 const express = require("express");
 const router = express.Router();
-const TokenController = require("../controller/token");
+const WalletController = require("../controller/wallet");
 
-router.get("/:chainIdOrName", TokenController.getById);
-router.get("/:chainIdOrName/:addressOrSymbol", TokenController.getBySymbol);
+router.post("/create", WalletController.create);
 
 module.exports = router;
