@@ -1,6 +1,8 @@
+require('dotenv').config();
+
 const express = require("express");
 const port = parseInt(process.env.PORT || "1998");
-const router = require("./router");
+const tokenRouter = require("./router/TokenRoutes");
 
 const app = express();
 
@@ -12,5 +14,5 @@ app.use((_, res, next) => {
     next();
 });
 
-app.use(router);
+app.use('/tokens', tokenRouter);
 app.listen(port, () => console.info("Server running on %d", port));

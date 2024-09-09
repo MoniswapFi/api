@@ -1,15 +1,12 @@
-const { Router } = require("express");
 const beraChainBartioTokens = require("../tokens/bera-bartio.json");
 const assert = require("assert");
 
 const tokensDictionary = {
-    80084: beraChainBartioTokens,
-    bartio: beraChainBartioTokens,
+  80084: beraChainBartioTokens,
+  bartio: beraChainBartioTokens,
 };
 
-const router = Router();
-
-router.get("/tokens/:chainIdOrName", (req, res) => {
+exports.getById = function (req, res) {
     try {
         const key = req.params.chainIdOrName;
         const result = tokensDictionary[key];
@@ -19,9 +16,9 @@ router.get("/tokens/:chainIdOrName", (req, res) => {
     } catch (error) {
         return res.status(500).json({ error: error.message });
     }
-});
+};
 
-router.get("/tokens/:chainIdOrName/:addressOrSymbol", (req, res) => {
+exports.getBySymbol = function (req, res) {
     try {
         const key = req.params.chainIdOrName;
         const addOrSym = req.params.addressOrSymbol;
@@ -39,6 +36,4 @@ router.get("/tokens/:chainIdOrName/:addressOrSymbol", (req, res) => {
     } catch (error) {
         return res.status(500).json({ error: error.message });
     }
-});
-
-module.exports = router;
+};
