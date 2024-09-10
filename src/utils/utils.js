@@ -8,6 +8,6 @@ const stripCosmosSystemValues = (obj) => {
     }
 
     return strippedObj;
-}
+};
 
 module.exports = { stripCosmosSystemValues };
