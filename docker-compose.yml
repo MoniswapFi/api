@@ -24,3 +24,5 @@ volumes:
 networks:
     api:
         external: false
+    db:
+        external: false
