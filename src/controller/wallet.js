@@ -1,5 +1,4 @@
 const { WalletModel } = require("../schema/wallet");
-const { stripCosmosSystemValues } = require("../utils/utils");
 
 exports.getWallet = async function (req, res) {
     try {
