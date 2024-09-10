@@ -2,7 +2,7 @@ require("dotenv").config();
 
 const express = require("express");
 const mongoose = require("mongoose");
-var bodyParser = require("body-parser");
+const bodyParser = require("body-parser");
 
 const tokensRouter = require("./router/TokenRoutes");
 const walletRouter = require("./router/WalletRoutes");
