@@ -9,7 +9,7 @@ const walletRouter = require("./router/WalletRoutes");
 const questRouter = require("./router/QuestRoutes");
 
 const port = parseInt(process.env.PORT || "1998");
-const dbURI = process.env.MONGODB_URL;
+const dbURI = process.env.MONGODB_URL || "mongodb://db:27017/__moniswap__";
 
 const app = express();
 app.use(bodyParser.json());
