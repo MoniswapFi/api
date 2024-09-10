@@ -1,4 +1,13 @@
 services:
+    db:
+        hostname: db
+        container_name: moniswap-fi-db
+        image: mongo:6-jammy
+        volumes:
+            - dbdata:/data/db
+        networks:
+            - db
+            - api
     main:
         hostname: main
         container_name: moniswap-fi-tokenlist-server
@@ -7,3 +16,11 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
+        networks:
+            - api
+volumes:
+    dbdata:
+        external: false
+networks:
+    api:
+        external: false

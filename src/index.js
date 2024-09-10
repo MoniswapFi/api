@@ -25,9 +25,10 @@ app.use("/tokens", tokensRouter);
 app.use("/wallet", walletRouter);
 app.use("/quest", questRouter);
 
-try {
-    mongoose.connect(dbURI);
-    app.listen(port, () => console.info("Server running on %d", port));
-} catch (error) {
-    console.log("Can't connect MongoDB. Check connection string again!");
-}
+app.listen(port, () => {
+    console.info("Server running on %d", port);
+    mongoose
+        .connect(dbURI)
+        .then(() => console.info("Mongoose connected"))
+        .catch(console.debug);
+});
