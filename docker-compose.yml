@@ -10,7 +10,7 @@ services:
             - api
     main:
         hostname: main
-        container_name: moniswap-fi-tokenlist-server
+        container_name: moniswap-fi-api-server
         ports:
             - 1998:1998
         build:
