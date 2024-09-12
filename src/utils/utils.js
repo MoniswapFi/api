@@ -1,13 +1,9 @@
-const stripCosmosSystemValues = (obj) => {
-    const systemKeys = ["_id", "__v"];
+const crypto = require("crypto");
 
-    const strippedObj = { ...obj };
+const generateReferralCode = (walletAddress) => {
+    const hash = crypto.createHash("sha1").update(walletAddress).digest("hex");
 
-    for (const key of systemKeys) {
-        delete strippedObj[key];
-    }
-
-    return strippedObj;
+    return hash.substring(0, 8);
 };
 
-module.exports = { stripCosmosSystemValues };
+module.exports = { generateReferralCode };
