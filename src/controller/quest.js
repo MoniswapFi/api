@@ -1,4 +1,6 @@
+const { LeaderboardModel } = require("../schema/leaderboard");
 const { QuestModel } = require("../schema/quest");
+const { WalletModel } = require("../schema/wallet");
 
 exports.getLists = async function (req, res) {
     try {
@@ -27,6 +29,27 @@ exports.create = async function (req, res) {
             },
             { upsert: true }
         );
+
+        const count = await QuestModel.countDocuments({ address: requestBody.address });
+        if (count === 11) {
+            const wallet = await WalletModel.findOne(
+                {
+                    address: requestBody.address,
+                },
+                "referrer"
+            );
+
+            if (wallet && wallet.referrer) {
+                await LeaderboardModel.findOneAndUpdate(
+                    { address: requestBody.address, referrer: wallet.referrer },
+                    {
+                        address: requestBody.address,
+                        referrer: wallet.referrer,
+                    },
+                    { upsert: true }
+                );
+            }
+        }
 
         return res.status(200).json({
             message: "Quest created.",
