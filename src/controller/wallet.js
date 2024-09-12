@@ -14,7 +14,7 @@ exports.getWallet = async function (req, res) {
 
 exports.getAllWallets = async function (req, res) {
     try {
-        const result = await WalletModel.find().select("-_id -__v").sort('-points');
+        const result = await WalletModel.find().select("-_id -__v").sort("-points");
         return res.status(200).json(result);
     } catch (error) {
         return res.status(500).json({ error: error.message });
@@ -68,9 +68,18 @@ exports.create = async function (req, res) {
             return res.status(400).json({ error: "Invalid request params" });
         }
         const refCode = generateReferralCode(requestBody.address);
+        const referral = requestBody.referral;
+
+        const referralWallet = await WalletModel.findOne(
+            {
+                refCode: referral,
+            },
+            "address"
+        );
+
         await WalletModel.findOneAndUpdate(
             { address: requestBody.address },
-            { $setOnInsert: { points: 0, refCode } },
+            { $setOnInsert: { points: 0, refCode, referrer: referralWallet?.address ?? "" } },
             { upsert: true }
         );
 

@@ -7,6 +7,7 @@ const bodyParser = require("body-parser");
 const tokensRouter = require("./router/TokenRoutes");
 const walletRouter = require("./router/WalletRoutes");
 const questRouter = require("./router/QuestRoutes");
+const leaderboardRouter = require("./router/LeaderboardRoutes");
 
 const port = parseInt(process.env.PORT || "1998");
 const dbURI = process.env.MONGODB_URL || "mongodb://db:27017/__moniswap__";
@@ -24,6 +25,7 @@ app.use((_, res, next) => {
 app.use("/tokens", tokensRouter);
 app.use("/wallet", walletRouter);
 app.use("/quest", questRouter);
+app.use("/leaderboard", leaderboardRouter);
 
 app.listen(port, () => {
     console.info("Server running on %d", port);
