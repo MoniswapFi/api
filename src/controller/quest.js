@@ -31,7 +31,7 @@ exports.create = async function (req, res) {
         );
 
         const count = await QuestModel.countDocuments({ address: requestBody.address });
-        if (count === 15 && result && !result.value) {
+        if (count === 16 && result && !result.value) {
             const wallet = await WalletModel.findOne(
                 {
                     address: requestBody.address,
