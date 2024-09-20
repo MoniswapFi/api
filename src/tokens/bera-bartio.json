@@ -16,6 +16,14 @@
         "chainId": 80084
     },
     {
+        "name": "Moma",
+        "address": "0x7bdb8fce4ea2f4c16874a67270c1b778792f0034",
+        "symbol": "MMA",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x7bdB8Fce4eA2f4c16874A67270c1B778792F0034/blob",
+        "chainId": 80084
+    },
+    {
         "name": "Moniswap",
         "address": "0x5A3740947AdEdADDE6B3034222B779549F0aC42F",
         "symbol": "MONI",
@@ -27,6 +35,14 @@
         "name": "Wrapped Bera",
         "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
         "symbol": "WBERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/wbera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Wrapped Bera (Memeswap)",
+        "address": "0x00f3fc587559b97c3a31c4e56ad41aead715a02f",
+        "symbol": "WETH",
         "decimals": 18,
         "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/wbera.png",
         "chainId": 80084
@@ -56,11 +72,27 @@
         "chainId": 80084
     },
     {
+        "name": "Berawow",
+        "address": "0x488f28059d278d32ea7da363205eab0b3124ac91",
+        "symbol": "WOW",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x488f28059D278D32ea7da363205eaB0b3124AC91/blob",
+        "chainId": 80084
+    },
+    {
         "name": "Wrapped Ether",
         "address": "0x6E1E9896e93F7A71ECB33d4386b49DeeD67a231A",
         "symbol": "WETH",
         "decimals": 18,
         "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/eth.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Memeswap",
+        "address": "0x1f84f3282ea585560b3d9965c45ac022952e27be",
+        "symbol": "MSP",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x1f84F3282Ea585560b3D9965c45aC022952e27bE/blob",
         "chainId": 80084
     },
     {
@@ -77,6 +109,14 @@
         "symbol": "KDK",
         "decimals": 18,
         "logoURI": "https://imgproxy-testnet.avascan.com/C1UMBnSstUKvhQT62pkhbT5d-gMTRwRjnD0CpWMhzAg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYmVyYXRyYWlsLmUxN2E3OWY3MDE2OC5wbmc",
+        "chainId": 80084
+    },
+    {
+        "name": "Skull Token",
+        "address": "0x5ad2078d39f904df1e498b2e8052503dd3e28eb2",
+        "symbol": "SKULL",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x5Ad2078d39f904dF1e498B2E8052503dD3e28EB2/blob",
         "chainId": 80084
     }
 ]
