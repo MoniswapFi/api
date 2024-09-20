@@ -20,18 +20,18 @@ exports.create = async function (req, res) {
             return res.status(400).json({ error: "Invalid request params" });
         }
 
-        await QuestModel.findOneAndUpdate(
+        const result = await QuestModel.findOneAndUpdate(
             { address: requestBody.address, reason: requestBody.reason },
             {
                 address: requestBody.address,
                 reason: requestBody.reason,
                 points: requestBody.points,
             },
-            { upsert: true }
+            { upsert: true, includeResultMetadata: true }
         );
 
         const count = await QuestModel.countDocuments({ address: requestBody.address });
-        if (count === 11) {
+        if (count === 21 && result && !result.value) {
             const wallet = await WalletModel.findOne(
                 {
                     address: requestBody.address,
@@ -48,6 +48,13 @@ exports.create = async function (req, res) {
                     },
                     { upsert: true }
                 );
+
+                const result = await LeaderboardModel.countDocuments({ referrer: wallet.referrer });
+                if (result === 1) {
+                    await WalletModel.findOneAndUpdate({ address: wallet.referrer }, { $inc: { points: 200 } });
+                } else if (result > 1) {
+                    await WalletModel.findOneAndUpdate({ address: wallet.referrer }, { $inc: { points: 400 } });
+                }
             }
         }
 
