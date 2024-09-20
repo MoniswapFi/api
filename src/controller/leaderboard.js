@@ -25,7 +25,7 @@ exports.getVerifiedCount = async function (req, res) {
 
 exports.getAllLists = async function (req, res) {
     try {
-        const wallets = await WalletModel.find({}).select("-_id -__v").sort('-points');
+        const wallets = await WalletModel.find({}).select("-_id -__v").sort("-points");
 
         const results = await Promise.all(
             wallets.map(async (wallet) => {
