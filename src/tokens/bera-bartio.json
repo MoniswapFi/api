@@ -118,5 +118,13 @@
         "decimals": 18,
         "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x5Ad2078d39f904dF1e498B2E8052503dD3e28EB2/blob",
         "chainId": 80084
+    },
+    {
+        "name": "Cappo Token",
+        "address": "0xC94E1CddACa4fB528422A0C5f5D7DC14cF851C47",
+        "symbol": "CAPPO",
+        "decimals": 18,
+        "logoURI": "https://imgproxy-testnet.avascan.com/C1UMBnSstUKvhQT62pkhbT5d-gMTRwRjnD0CpWMhzAg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYmVyYXRyYWlsLmUxN2E3OWY3MDE2OC5wbmc",
+        "chainId": 80084
     }
 ]
