@@ -126,5 +126,45 @@
         "decimals": 18,
         "logoURI": "https://ipfs.io/ipfs/QmdcUWD7mQkVHr4ggYbaGz1LmcmafUH3Y2Voz3CLJWUkwD",
         "chainId": 80084
+    },
+    {
+        "name": "Honey-AToken",
+        "address": "0xD08391c5977ebF1a09bB5915908EF5cd95Edb7E0",
+        "symbol": "AHONEY",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xd08391c5977ebf1a09bb5915908ef5cd95edb7e0/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Beraswap",
+        "address": "0x8790933527cff3D07a70119B24307A78478FBDfD",
+        "symbol": "BRS",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0x8790933527cff3d07a70119b24307a78478fbdfd/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "$Yeet",
+        "address": "0x1740F679325ef3686B2f574e392007A92e4BeD41",
+        "symbol": "YEET",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0x1740f679325ef3686b2f574e392007a92e4bed41/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Paw Token",
+        "address": "0xB43fd1dC4f02d81f962E98203b2cc4FD9E342964",
+        "symbol": "PAW",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xb43fd1dc4f02d81f962e98203b2cc4fd9e342964/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Nectar Token",
+        "address": "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
+        "symbol": "NECT",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xf5afcf50006944d17226978e594d4d25f4f92b40/logo.png",
+        "chainId": 80084
     }
 ]
