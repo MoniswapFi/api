@@ -166,5 +166,13 @@
         "decimals": 18,
         "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xf5afcf50006944d17226978e594d4d25f4f92b40/logo.png",
         "chainId": 80084
+    },
+    {
+        "name": "Locks",
+        "address": "0xC94ecBfE16E337f6e606dcd86B8A5eaDbAe7A337",
+        "symbol": "LOCKS",
+        "decimals": 18,
+        "logoURI": "https://www.goldilocksdao.io/images/logo-locks.png",
+        "chainId": 80084
     }
 ]
