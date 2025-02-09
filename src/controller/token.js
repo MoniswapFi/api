@@ -1,9 +1,12 @@
 const beraChainBartioTokens = require("../tokens/bera-bartio.json");
+const beraChainMainnetTokens = require("../tokens/bera-mainnet.json");
 const assert = require("assert");
 
 const tokensDictionary = {
     80084: beraChainBartioTokens,
     bartio: beraChainBartioTokens,
+    80094: beraChainMainnetTokens,
+    berachain: beraChainMainnetTokens,
 };
 
 exports.getById = function (req, res) {
