@@ -1,0 +1,155 @@
+[
+    {
+        "name": "Bera Coin",
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "symbol": "BERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/bera.png",
+        "chainId": 80094
+    },
+    {
+        "name": "Wrapped Bera",
+        "address": "0x6969696969696969696969696969696969696969",
+        "symbol": "WBERA",
+        "decimals": 18,
+        "logoURI": "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjQiIGhlaWdodD0iNjQiIHZpZXdCb3g9IjAgMCA2NCA2NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzY4MTZfMzYpIj4KPHBhdGggZD0iTTMyIDY0QzQ5LjY3MzEgNjQgNjQgNDkuNjczMSA2NCAzMkM2NCAxNC4zMjY5IDQ5LjY3MzEgMCAzMiAwQzE0LjMyNjkgMCAwIDE0LjMyNjkgMCAzMkMwIDQ5LjY3MzEgMTQuMzI2OSA2NCAzMiA2NFoiIGZpbGw9IndoaXRlIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjMuNzYwOSAyMC41Njc5QzIzLjIyMzUgMjAuMjMwOCAyMi42MzMzIDE5Ljk5NzQgMjIuMDE2OCAxOS44ODMzQzIxLjQwMDMgMTkuNzY5MiAyMC43ODM5IDE5Ljc3NDQgMjAuMTgzMiAxOS45MDRDMTkuNTg3NyAyMC4wMzM3IDE5LjAyOTIgMjAuMjc3NSAxOC41MzkyIDIwLjYyNUMxOC4wNDkxIDIwLjk3MjUgMTcuNjM4MSAyMS40MjM3IDE3LjMzMjUgMjEuOTQyNEMxNy4wMjY5IDIyLjQ2MTEgMTYuODI2NyAyMy4wNDIgMTYuNzQ3NiAyMy42NTRDMTYuNjY4NiAyNC4yNjYgMTYuNzEwOCAyNC44ODg0IDE2Ljg3NDEgMjUuNDk1MkMxNy4xNDI4IDI2LjUwMTUgMTguMzg2NCAyNi42OTM0IDE5LjI0IDI2LjA4MTNMMjEuNDE2MiAyNC41MjUzTDIzLjU5NzYgMjIuOTY0MkMyNC40NTEyIDIyLjM1MjEgMjQuNjUxNCAyMS4xMjgxIDIzLjc2MDkgMjAuNTY3OVoiIGZpbGw9IiM3ODM1MEYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00Ni43NjY2IDIxLjk0MjRDNDYuNDYxIDIxLjQyMzcgNDYuMDUgMjAuOTc3NyA0NS41NiAyMC42MjVDNDUuMDY5OSAyMC4yNzc1IDQ0LjUxMTQgMjAuMDI4NSA0My45MTYgMTkuOTA0QzQzLjMyMDUgMTkuNzc0NCA0Mi42OTM1IDE5Ljc2OTIgNDIuMDgyMyAxOS44ODMzQzQxLjQ2NTggMTkuOTk3NCA0MC44NzU2IDIwLjIzMDggNDAuMzM4MiAyMC41Njc5QzM5LjQ0NzcgMjEuMTI4MSAzOS42NDc5IDIyLjM1MjEgNDAuNTAxNSAyMi45NjQyTDQyLjY4MyAyNC41MjUzTDQ0Ljg1OTEgMjYuMDgxM0M0NS43MTI4IDI2LjY5MzQgNDYuOTU2MyAyNi41MDE1IDQ3LjIyNSAyNS40OTUyQzQ3LjM4ODQgMjQuODg4NCA0Ny40MzA1IDI0LjI2MDggNDcuMzUxNSAyMy42NTRDNDcuMjcyNCAyMy4wNDIgNDcuMDcyMiAyMi40NjYyIDQ2Ljc2NjYgMjEuOTQyNFoiIGZpbGw9IiM3ODM1MEYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0zMy44MTQ5IDM4Ljc5ODVDMzIuNzcxNiAzOC40NDU4IDMxLjYyMjkgMzguNDQ1OCAzMC41Nzk2IDM4Ljc5ODVDMzAgMzguOTk1NSAyOS40OTQyIDM5LjMwMTYgMjkuNTI1OCAzOS43NjMyQzI5LjU4MzggNDAuNDY4NiAzMC43MDYxIDQxLjY3NyAzMS41MTc2IDQxLjkyNkMzMi4wMTI5IDQyLjA3NjQgMzIuMzIzNyA0Mi4wNjYgMzIuODc3IDQxLjkyNkMzMy42ODg1IDQxLjcxODUgMzQuODE2MSA0MC40Njg2IDM0Ljg2ODggMzkuNzYzMkMzNC45MDU3IDM5LjMwMTYgMzQuMzk0NSAzOC45OTU1IDMzLjgxNDkgMzguNzk4NVoiIGZpbGw9IiM3ODM1MEYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0yOC4yNTYxIDM2LjUyNjlDMjcuOTY2MyAzNi4xNDMxIDI3LjYwMjcgMzUuODIxNiAyNy4xOTE3IDM1LjU4M0MyNi43ODA3IDM1LjM0NDQgMjYuMzI3NSAzNS4xOTQgMjUuODU4NiAzNS4xNDIxQzI1LjM4OTYgMzUuMDkwMiAyNC45MTAxIDM1LjEzMTcgMjQuNDU3IDM1LjI3MThDMjQuMDAzOCAzNS40MTE4IDIzLjU3NyAzNS42NCAyMy4yMDI5IDM1Ljk1MTJDMjIuODI4OCAzNi4yNjI0IDIyLjUxNzkgMzYuNjQ2MiAyMi4yODYxIDM3LjA3NjdDMjEuOTAxNCAzNy43OTc3IDIyLjUxMjYgMzguNTU0OSAyMy4zMzQ2IDM4LjY0ODNMMjUuNDEwNyAzOC44ODE3TDI3LjUwMjYgMzkuMTIwM0MyOC4zMjQ2IDM5LjIxMzYgMjkuMDk5MSAzOC42MTcyIDI4Ljg4ODQgMzcuODI4OEMyOC43NjE5IDM3LjM1MTYgMjguNTQ1OSAzNi45MTA4IDI4LjI1NjEgMzYuNTI2OVoiIGZpbGw9IiM3ODM1MEYiLz4KPHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik00MS4xMjM2IDM1Ljg3ODJDNDAuNzQ5NSAzNS41NjcgNDAuMzIyNyAzNS4zMzg4IDM5Ljg2OTUgMzUuMTk4OEMzOS40MTY0IDM1LjA1ODcgMzguOTM2OSAzNS4wMTcyIDM4LjQ2NzkgMzUuMDY5MUMzNy45OTkgMzUuMTIxIDM3LjU0NTggMzUuMjcxNCAzNy4xMzQ4IDM1LjUxQzM2LjcyMzggMzUuNzQ4NiAzNi4zNjAzIDM2LjA3MDEgMzYuMDcwNCAzNi40NTM5QzM1Ljc4MDYgMzYuODM3OCAzNS41NjQ2IDM3LjI3ODYgMzUuNDM4MSAzNy43NTU4QzM1LjIyNzQgMzguNTQ0MiAzNi4wMDE5IDM5LjE0MDYgMzYuODE4NyAzOS4wNDczTDM4LjkxMDUgMzguODA4N0w0MC45OTE5IDM4LjU3NTNDNDEuODEzOSAzOC40ODE5IDQyLjQyNTEgMzcuNzI0NyA0Mi4wNDA0IDM3LjAwMzdDNDEuODA4NiAzNi41NzMyIDQxLjQ5MjUgMzYuMTg5NCA0MS4xMjM2IDM1Ljg3ODJaIiBmaWxsPSIjNzgzNTBGIi8+CjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNTEuMDA4NyAzMC45QzUyLjcyMTIgMjkuMDE3MiA1My43NTkzIDI2LjUyMjUgNTMuNzI3NiAyMy43ODkxQzUzLjcxMTggMjIuMjc0NiA1My4zNTg4IDIwLjc3MDUgNTIuNjg5NiAxOS4zOTZDNTAuODI0MyAxNS41MzcyIDQ2LjEwMzEgMTIuNTIzNyA0MS4yNzEzIDEzLjUyOTlDNDEuMTEyNyAxMy41NjM2IDQwLjkxNDUgMTMuNjE1IDQwLjY4NzQgMTMuNjgxNEMzOS45Njg3IDEzLjg5MjUgMzkuMzA4NSAxNC4yNTU1IDM4LjcyNjIgMTQuNzIwM0MzNy40MzU4IDE1Ljc1MDkgMzUuMDY0MSAxNi40NDEyIDMyLjM1MSAxNi40NDEyQzMyLjI5OTQgMTYuNDQxMiAzMi4yNDgzIDE2LjQ0MDcgMzIuMTk3MiAxNi40NDAyQzMyLjE0NjEgMTYuNDQwMiAzMi4wOTUgMTYuNDQwMiAzMi4wNDMzIDE2LjQ0MDJDMjkuMzMwNyAxNi40NDAyIDI2Ljk1ODUgMTUuNzQ5MyAyNS42NjgxIDE0LjcxOTJDMjUuMDg1OSAxNC4yNTQgMjQuNDI1NiAxMy44OTE0IDIzLjcwNjkgMTMuNjgwM0MyMy40Nzk4IDEzLjYxMzQgMjMuMjgxNyAxMy41NjI2IDIzLjEyMzEgMTMuNTI4OUMxOC4yOTE4IDEyLjUyMjcgMTMuNTcwNiAxNS41MzYxIDExLjcwNTMgMTkuMzk1QzExLjAzNjEgMjAuNzY5NCAxMC42ODMgMjIuMjczNiAxMC42NjcyIDIzLjc4ODFDMTAuNjM1NiAyNi41MjE0IDExLjY3MzYgMjkuMDE2MiAxMy4zODYxIDMwLjg5OUMxMy41MzM3IDMxLjA2NDkgMTMuNjAyMiAzMS4yODggMTMuNTY1MyAzMS41MDA2QzEyLjQwMDggMzguMDUxMyAxNC4xMTg2IDQzLjQ0MDIgMTcuNjU0MiA0Ny4yNzg0QzIxLjM2OSA1MS4zMDg0IDI2LjgxNzMgNTMuMzE1NiAzMi4xMDIzIDUzLjQyNDVIMzIuMTk3MkMzMi4yMDI0IDUzLjQyNSAzMi4yMDc3IDUzLjQyNSAzMi4yMTMgNTMuNDI1SDMyLjI5MkMzNy41NzcgNTMuMzE2MSA0My4wMjU0IDUxLjMwODkgNDYuNzQwMiA0Ny4yNzg5QzUwLjI3NTggNDMuNDQwOCA1MS45OTM2IDM4LjA1MTggNTAuODI5MSAzMS41MDExQzUwLjc5MjIgMzEuMjg4NSA1MC44NjEyIDMxLjA2NTkgNTEuMDA4NyAzMC45Wk00Ny45MTU3IDI5Ljc2NDFDNDcuNjUyMyAyOS45NzY4IDQ3LjUzNjMgMzAuMzE5MSA0Ny42MTU0IDMwLjY0NThDNTAuMzYwNiA0Mi4wODI0IDQzLjMwNTIgNDguNzU3NiAzNS4yMDExIDUwLjE4OTFIMzUuMTk1OUMzNC40MTYgNTAuMzI5MSAzMy42MjU3IDUwLjQxNzMgMzIuODMgNTAuNDU4OEMzMi43ODI2IDUwLjQ1ODggMzIuNzI5OSA1MC40NjQgMzIuNjgyNSA1MC40NjRDMzIuNTM0OSA1MC40NzQ0IDMyLjM4MjEgNTAuNDc0NCAzMi4yMzQ2IDUwLjQ3OTZIMzIuMTk3N0MzMi4xOTQgNTAuNDc5IDMyLjE4OTggNTAuNDc5IDMyLjE4NzIgNTAuNDc5SDMyLjE2MDhDMzIuMDEzMyA1MC40NzM5IDMxLjg2MDUgNTAuNDczOSAzMS43MTI5IDUwLjQ2MzVDMzEuNjY1NSA1MC40NjM1IDMxLjYxMjggNTAuNDU4MyAzMS41NjU0IDUwLjQ1ODNDMzAuNzY5NyA1MC40MTY4IDI5Ljk3OTQgNTAuMzI4NiAyOS4xOTk1IDUwLjE4ODZIMjkuMTk0M0MyMS4wOTAyIDQ4Ljc1NzEgMTQuMDM0OCA0Mi4wODE5IDE2Ljc4IDMwLjY0NTNDMTYuODU5MSAzMC4zMTg2IDE2Ljc0MzEgMjkuOTc2MiAxNi40Nzk3IDI5Ljc2MzZDMTQuNzMwMyAyOC4zNjMyIDEzLjYyMzggMjYuMjE1OSAxMy42NTAxIDIzLjgxNDVDMTMuNjYwNyAyMi43MjUzIDEzLjkxODkgMjEuNjQ2NSAxNC4zOTMxIDIwLjY2MUMxNS43NzM2IDE3LjgwMzIgMTkuMjQ2IDE1LjcyMzQgMjIuNTA3NiAxNi40MDI4QzIyLjg4OTcgMTYuNDgxMSAyMy45MTQgMTYuODEzNiAyNC45MTIgMTcuMjgxNEMyNS4yNzQgMTcuNDUxIDI1LjYxMzggMTcuNjYzMiAyNS45MzIxIDE3LjkwMzNDMjcuMjM5NCAxOC44OTA4IDI5LjU1NjggMTkuNTQ4IDMyLjE5ODIgMTkuNTUwNkMzNC44Mzk3IDE5LjU0OSAzNy4xNTcxIDE4Ljg5MTkgMzguNDY0NCAxNy45MDM4QzM4Ljc4MjYgMTcuNjYzNyAzOS4xMjIgMTcuNDUxNiAzOS40ODQ1IDE3LjI4MTlDNDAuNDgxOSAxNi44MTQxIDQxLjUwNjMgMTYuNDgyMiA0MS44ODg4IDE2LjQwMzNDNDUuMTUwNCAxNS43MjM5IDQ4LjYyMjggMTcuODAzNyA1MC4wMDM0IDIwLjY2MTZDNTAuNDc3NiAyMS42NDcgNTAuNzM1OCAyMi43MjU4IDUwLjc0NjMgMjMuODE1QzUwLjc3MjcgMjYuMjE2NSA0OS42NjYxIDI4LjM2MzcgNDcuOTE2OCAyOS43NjQxSDQ3LjkxNTdaIiBmaWxsPSIjNzgzNTBGIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfNjgxNl8zNiI+CjxyZWN0IHdpZHRoPSI2NCIgaGVpZ2h0PSI2NCIgZmlsbD0id2hpdGUiLz4KPC9jbGlwUGF0aD4KPC9kZWZzPgo8L3N2Zz4K",
+        "chainId": 80094
+    },
+    {
+        "chainId": 80094,
+        "address": "0x09D4214C03D01F49544C0448DBE3A27f768F2b34",
+        "name": "Reservoir Stablecoin",
+        "symbol": "rUSD",
+        "decimals": 18,
+        "logoURI": "https://berascan.com/token/images/reservoirrusd_64.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x5d3a1Ff2b6BAb83b63cd9AD0787074081a52ef34",
+        "name": "USDe",
+        "symbol": "USDe",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x5d3a1ff2b6bab83b63cd9ad0787074081a52ef34.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x211Cc4DD073734dA055fbF44a2b4667d5E5fE5d2",
+        "name": "Staked USDe",
+        "symbol": "sUSDe",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x211cc4dd073734da055fbf44a2b4667d5e5fe5d2.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xecAc9C5F704e954931349Da37F60E39f515c11c1",
+        "name": "Lombard Staked Bitcoin",
+        "symbol": "LBTC",
+        "decimals": 8,
+        "logoURI": "https://berascan.com/token/images/lombardfinance_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x7DCC39B4d1C53CB31e1aBc0e358b43987FEF80f7",
+        "name": "Wrapped eETH",
+        "symbol": "weETH",
+        "decimals": 18,
+        "logoURI": "https://berascan.com/token/images/etherfiweeth_32.png"
+    },
+
+    {
+        "chainId": 80094,
+        "address": "0x1cE0a25D13CE4d52071aE7e02Cf1F6606F4C79d3",
+        "name": "Nectar",
+        "symbol": "NECT",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xf5afcf50006944d17226978e594d4d25f4f92b40/logo.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x5B82028cfc477C4E7ddA7FF33d59A23FA7Be002a",
+        "name": "Magic Internet Money",
+        "symbol": "MIM",
+        "decimals": 18,
+        "logoURI": "https://berascan.com/token/images/mimstablecoin_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x850CDF416668210ED0c36bfFF5d21921C7adA3b8",
+        "name": "rswETH",
+        "symbol": "rswETH",
+        "decimals": 18,
+        "logoURI": "https://berascan.com/token/images/rsweth_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x1fCca65fb6Ae3b2758b9b2B394CB227eAE404e1E",
+        "name": "pumpBTC.bera",
+        "symbol": "pumpBTC.bera",
+        "decimals": 8,
+        "logoURI": "https://berascan.com/token/images/pumpbtcxyz2_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xbAC93A69c62a1518136FF840B788Ba715cbDfE2B",
+        "name": "Fire Bitcoin",
+        "symbol": "FBTC",
+        "decimals": 8,
+        "logoURI": "https://berascan.com/token/images/fbtc_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x4186BFC76E2E237523CBC30FD220FE055156b41F",
+        "name": "KelpDao Restaked ETH",
+        "symbol": "rsETH",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/balancer/tokenlists/main/src/assets/images/tokens/0x4186bfc76e2e237523cbc30fd220fe055156b41f.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xCC0966D8418d412c599A6421b760a847eB169A8c",
+        "name": "SolvBTC Babylon",
+        "symbol": "SolvBTC.BBN",
+        "decimals": 18,
+        "logoURI": "https://berascan.com/token/images/solvbtcbbn_32.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x93F4d0ab6a8B4271f4a28Db399b5E30612D21116",
+        "name": "StakeStone Bitcoin",
+        "symbol": "SBTC",
+        "decimals": 18,
+        "logoURI": "https://static.kodiak.finance/tokens/sbtc.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x549943e04f40284185054145c6E4e9568C1D3241",
+        "name": "Bridged USDC (Stargate)",
+        "symbol": "USDC.e",
+        "decimals": 6,
+        "logoURI": "https://berascan.com/token/images/usdc_32.svg"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x779Ded0c9e1022225f8E0630b35a9b54bE713736",
+        "name": "USDT0",
+        "decimals": 6,
+        "logoURI": "https://static.kodiak.finance/tokens/usdt0.png",
+        "symbol": "USDT0"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xFCBD14DC51f0A4d49d5E53C2E0950e0bC26d0Dce",
+        "name": "Honey",
+        "decimals": 18,
+        "symbol": "Honey",
+        "logoURI": "https://static.kodiak.finance/tokens/honey.png"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x688e72142674041f8f6Af4c808a4045cA1D6aC82",
+        "name": "BYUSD",
+        "symbol": "BYUSD",
+        "decimals": 6,
+        "logoURI": "https://dev.internal.oogabooga.io/static/mainnet/byusd.png"
+    }
+]
