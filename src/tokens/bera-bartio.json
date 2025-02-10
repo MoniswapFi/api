@@ -1,0 +1,178 @@
+[
+    {
+        "name": "Bera Coin",
+        "address": "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+        "symbol": "BERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/bera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "DAI",
+        "address": "0x806Ef538b228844c73E8E692ADCFa8Eb2fCF729c",
+        "symbol": "DAI",
+        "decimals": 18,
+        "logoURI": "https://assets.coingecko.com/coins/images/9956/small/Badge_Dai.png?1696509996",
+        "chainId": 80084
+    },
+    {
+        "name": "Moma",
+        "address": "0x7bdb8fce4ea2f4c16874a67270c1b778792f0034",
+        "symbol": "MMA",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x7bdB8Fce4eA2f4c16874A67270c1B778792F0034/blob",
+        "chainId": 80084
+    },
+    {
+        "name": "Moniswap",
+        "address": "0x5A3740947AdEdADDE6B3034222B779549F0aC42F",
+        "symbol": "MONI",
+        "decimals": 18,
+        "logoURI": "https://avatars.githubusercontent.com/u/164018330?s=400&u=e64d7b4d2fec89ee15300ac0c6ca2b003e6a4482&v=4",
+        "chainId": 80084
+    },
+    {
+        "name": "Wrapped Bera",
+        "address": "0x7507c1dc16935B82698e4C63f2746A2fCf994dF8",
+        "symbol": "WBERA",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/wbera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Wrapped Bera (Memeswap)",
+        "address": "0x00f3fc587559b97c3a31c4e56ad41aead715a02f",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/wbera.png",
+        "chainId": 80084
+    },
+    {
+        "name": "USD Coin",
+        "address": "0xd6D83aF58a19Cd14eF3CF6fe848C9A4d21e5727c",
+        "symbol": "USDC",
+        "decimals": 6,
+        "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdc.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Honey",
+        "address": "0x0E4aaF1351de4c0264C5c7056Ef3777b41BD8e03",
+        "symbol": "HONEY",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/honey.png",
+        "chainId": 80084
+    },
+    {
+        "name": "BHoney",
+        "address": "0x1306D3c36eC7E38dd2c128fBe3097C2C2449af64",
+        "symbol": "BHONEY",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/bhoney.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Berawow",
+        "address": "0x488f28059d278d32ea7da363205eab0b3124ac91",
+        "symbol": "WOW",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x488f28059D278D32ea7da363205eaB0b3124AC91/blob",
+        "chainId": 80084
+    },
+    {
+        "name": "Wrapped Ether",
+        "address": "0x6E1E9896e93F7A71ECB33d4386b49DeeD67a231A",
+        "symbol": "WETH",
+        "decimals": 18,
+        "logoURI": "https://artio-static-asset-public.s3.ap-southeast-1.amazonaws.com/assets/eth.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Memeswap",
+        "address": "0x1f84f3282ea585560b3d9965c45ac022952e27be",
+        "symbol": "MSP",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x1f84F3282Ea585560b3D9965c45aC022952e27bE/blob",
+        "chainId": 80084
+    },
+    {
+        "name": "Tether USD",
+        "address": "0x05D0dD5135E3eF3aDE32a9eF9Cb06e8D37A6795D",
+        "symbol": "USDT",
+        "decimals": 6,
+        "logoURI": "https://tokens.pancakeswap.finance/images/symbol/usdt.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Kodiak Finance",
+        "address": "0xfd27998fa0eaB1A6372Db14Afd4bF7c4a58C5364",
+        "symbol": "KDK",
+        "decimals": 18,
+        "logoURI": "https://imgproxy-testnet.avascan.com/C1UMBnSstUKvhQT62pkhbT5d-gMTRwRjnD0CpWMhzAg/pr:thumb_32/aHR0cHM6Ly9jbXMtY2RuLmF2YXNjYW4uY29tL2NtczIvYmVyYXRyYWlsLmUxN2E3OWY3MDE2OC5wbmc",
+        "chainId": 80084
+    },
+    {
+        "name": "Skull Token",
+        "address": "0x5ad2078d39f904df1e498b2e8052503dd3e28eb2",
+        "symbol": "SKULL",
+        "decimals": 18,
+        "logoURI": "https://memeswap-token-images.sfo3.cdn.digitaloceanspaces.com/0x5Ad2078d39f904dF1e498B2E8052503dD3e28EB2/blob",
+        "chainId": 80084
+    },
+    {
+        "name": "Cappo Token",
+        "address": "0xC94E1CddACa4fB528422A0C5f5D7DC14cF851C47",
+        "symbol": "CAPPO",
+        "decimals": 18,
+        "logoURI": "https://ipfs.io/ipfs/QmdcUWD7mQkVHr4ggYbaGz1LmcmafUH3Y2Voz3CLJWUkwD",
+        "chainId": 80084
+    },
+    {
+        "name": "Honey-AToken",
+        "address": "0xD08391c5977ebF1a09bB5915908EF5cd95Edb7E0",
+        "symbol": "AHONEY",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xd08391c5977ebf1a09bb5915908ef5cd95edb7e0/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Beraswap",
+        "address": "0x8790933527cff3D07a70119B24307A78478FBDfD",
+        "symbol": "BRS",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0x8790933527cff3d07a70119b24307a78478fbdfd/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "$Yeet",
+        "address": "0x1740F679325ef3686B2f574e392007A92e4BeD41",
+        "symbol": "YEET",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0x1740f679325ef3686b2f574e392007a92e4bed41/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Paw Token",
+        "address": "0xB43fd1dC4f02d81f962E98203b2cc4FD9E342964",
+        "symbol": "PAW",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xb43fd1dc4f02d81f962e98203b2cc4fd9e342964/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Nectar Token",
+        "address": "0xf5AFCF50006944d17226978e594D4D25f4f92B40",
+        "symbol": "NECT",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/TunaWho/token-asset/refs/heads/master/blockchains/bera/assets/0xf5afcf50006944d17226978e594d4d25f4f92b40/logo.png",
+        "chainId": 80084
+    },
+    {
+        "name": "Locks",
+        "address": "0xC94ecBfE16E337f6e606dcd86B8A5eaDbAe7A337",
+        "symbol": "LOCKS",
+        "decimals": 18,
+        "logoURI": "https://www.goldilocksdao.io/images/logo-locks.png",
+        "chainId": 80084
+    }
+]
