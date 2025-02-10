@@ -159,5 +159,77 @@
         "symbol": "MONI",
         "decimals": 18,
         "logoURI": "https://avatars.githubusercontent.com/u/164018330?s=400&u=e64d7b4d2fec89ee15300ac0c6ca2b003e6a4482&v=4"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x195346f68d5ef78213c94a819b1de936e5e17ea1",
+        "name": "42069",
+        "symbol": "42069",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0x195346F68d5Ef78213c94A819B1de936E5E17EA1/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x3cdbf1361b87c5eba10bf002040e2bf98e07e160",
+        "name": "Kubera",
+        "symbol": "KUBERA",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0x3cDBf1361b87C5EbA10bf002040e2bf98E07e160/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xe11b98c2f73ef9ef7b40429fa13885abca7ecf38",
+        "name": "LBGT",
+        "symbol": "LBGT+",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0xe11B98c2f73eF9eF7b40429fa13885ABCa7ecF38/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xffc6912262cb011a15f7161c237d30c6c229a559",
+        "name": "EVO",
+        "symbol": "EVO",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0xfFC6912262cB011A15F7161C237D30c6c229A559/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x1c6579be5819153207079ce65b5b1bc0499035a7",
+        "name": "Berra",
+        "symbol": "BERRA",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0x1c6579BE5819153207079Ce65B5B1Bc0499035a7/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xec17f614bdf7f3f322cb929fd506b4780d63e924",
+        "name": "Pray Miberas",
+        "symbol": "PRAY",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0xeC17f614BDF7F3F322cb929FD506B4780D63e924/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0xb6b4fa5b444e3c6539b8bfee4fbb4359184c503f",
+        "name": "Bera Graduation",
+        "symbol": "BRAD",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0xb6B4FA5B444e3c6539b8BFeE4FBb4359184C503f/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x34b6905877b821045d55bbce716ba5127351b3a4",
+        "name": "Liquid",
+        "symbol": "TRUMP",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0x34B6905877B821045D55bbcE716bA5127351b3A4/blob?tr=w-240,h-240,dpr-1"
+    },
+    {
+        "chainId": 80094,
+        "address": "0x917ddaecd82a57e04cdcf0cddabf8d18a678ff2e",
+        "name": "Coke",
+        "symbol": "COKE",
+        "decimals": 18,
+        "logoURI": "https://ik.imagekit.io/memeswap/80094/0x917DdAeCD82A57e04Cdcf0CDDabF8d18A678Ff2E/blob?tr=w-240,h-240,dpr-1"
     }
 ]
